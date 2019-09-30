@@ -5,11 +5,19 @@ using UnityEngine.UI;
 
 public class Compiler : MonoBehaviour
 {
-	public void Compile()
-	{
-		foreach (Transform child in transform)
-		{
-			//Do something
-		}
-	}
+
+    public CodeEditorPanelBehaviour CEP;
+
+    public void Compile()
+    {
+        //foreach (FlowButtonBehaviour block in CEP.GetBlocks())
+        //{
+        //    block.GetModel();
+        //}
+    }
+
+    public void AddBlock()
+    {
+
+    }
 }
